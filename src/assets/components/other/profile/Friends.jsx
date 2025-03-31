@@ -15,7 +15,7 @@ const Friends = () => {
         ));
     };
     return (
-        <div className="w-full bg-white p-5 rounded-lg shadow-md">
+        <div className="w-full bg-white p-5 rounded-lg ">
             <div className="text-2xl font-bold mb-4 ">Friends</div>
 
             <div className='grid grid-cols-2 gap-5'>
