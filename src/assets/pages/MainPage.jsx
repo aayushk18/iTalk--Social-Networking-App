@@ -120,7 +120,7 @@ const MainPage = () => {
                             alt='Post'
                             className='w-full mt-4 rounded-md'
                         />
-                        <div>{el.postdesciption}</div>
+                        <div className='my-3'>{el.postdesciption}</div>
                         <div className='flex justify-around mt-4 font-semibold text-gray-400'>
                             <div><i className='uil uil-thumbs-up'></i><span className='mx-2'>Like</span></div>
                             <div><i className='uil uil-comment-alt'></i><span className='mx-2'>Comment</span></div>
