@@ -10,28 +10,28 @@ const MainPage = () => {
         Pagename: 'Error 69',
         Pagepic: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgXy7V4i0TVpWtkhNBFFWEvR8MpqdWhfPprw&s',
         postpic: 'https://i.pinimg.com/736x/23/8d/c3/238dc3bfa9785f3d3ab4e94e088955e1.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'Hehe welcome to 2023😂',
         postdate: 'March 28 5:34 am'
     },
     {
         Pagename: 'Foofaji',
         Pagepic: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXXRINFoZllQUYG4FRzqIVeYBJ_obkdB2Og&s',
         postpic: 'https://i.pinimg.com/474x/a5/8e/91/a58e915ba6ecf2b1f4b4e513608eec05.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'Angry yamm 😈',
         postdate: 'March 28 5:34 am'
     },
     {
         Pagename: 'Memehub',
         Pagepic: 'https://pbs.twimg.com/profile_images/1658770907471683585/XMryZWMt_400x400.jpg',
         postpic: 'https://i.pinimg.com/736x/23/8d/c3/238dc3bfa9785f3d3ab4e94e088955e1.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'Hehe welcome to 2023😂',
         postdate: 'March 28 5:34 am'
     },
     {
         Pagename: 'RJVCJ Posts',
         Pagepic: 'ccc',
         postpic: 'https://i.pinimg.com/1200x/b8/37/23/b837235b36312092593868f05b9f9ede.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'Kya zamana aa gaya',
         postdate: 'March 28 5:34 am'
     },
 
@@ -40,21 +40,21 @@ const MainPage = () => {
         Pagename: 'Foofaji',
         Pagepic: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXXRINFoZllQUYG4FRzqIVeYBJ_obkdB2Og&s',
         postpic: 'https://i.pinimg.com/474x/a5/8e/91/a58e915ba6ecf2b1f4b4e513608eec05.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'Angry yamm 😈',
         postdate: 'March 28 5:34 am'
     },
     {
         Pagename: 'Memehub',
         Pagepic: 'https://pbs.twimg.com/profile_images/1658770907471683585/XMryZWMt_400x400.jpg',
         postpic: 'https://i.pinimg.com/736x/23/8d/c3/238dc3bfa9785f3d3ab4e94e088955e1.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'New year goals',
         postdate: 'March 28 5:34 am'
     },
     {
         Pagename: 'RJVCJ Posts',
         Pagepic: 'cc',
         postpic: 'https://i.pinimg.com/1200x/b8/37/23/b837235b36312092593868f05b9f9ede.jpg',
-        postdesciption: 'dfdfghghghg',
+        postdesciption: 'Kya zamana aa gaya',
         postdate: 'March 28 5:34 am'
     },
 
