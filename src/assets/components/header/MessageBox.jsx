@@ -2,7 +2,7 @@ import React from 'react'
 
 const MessageBox = ({ users }) => {
     return (
-        <div className=' bg-white shadow-xl w-100 h-full bottom-5 shadow-gray-500 translate-y-7 rounded-lg  p-3 '>
+        <div className=' '>
             <div className=' flex flex-row justify-between p-2'>
                 <div>Chats</div>
                 <div className='text-2xl'><i class="uil uil-ellipsis-v"></i></div>            </div>
