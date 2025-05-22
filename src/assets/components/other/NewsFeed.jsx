@@ -185,69 +185,75 @@ const NewsFeed = () => {
 
 
 
-
-
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     return (
-        <div>
-            <div className='w-full justify-items-center '>
-                <button onClick={() => { feedHandler() }} className=''></button>
 
 
-                {newsData.articles.slice(0, index).map((el, index) => {
-
-                    return (
+        <div className="w-full px-3 sm:px-6 lg:px-10">
 
 
-                        <div className='bg-white rounded-lg p-5 mt-5 m-10 w-200  shadow-xs shadow-gray-500'>
-                            <div className='flex flex-row justify-between'>
-                                <div className='flex flex-row gap-2' >
-                                    <div className=' text-5xl  text-gray-400'><i class="uil uil-user-circle"></i></div>
-                                    <div>
-                                        <div>{el.title}</div>
-                                        <div className='text-gray-500 font-semibold'>{el.source.name}</div>
-                                    </div>
-                                </div>
-                                <div className='text-2xl'><i class="uil uil-ellipsis-v"></i></div>
+            {/* Feed Items */}
+            {newsData.articles.slice(0, index).map((el, i) => (
+                <div key={i} className="bg-white rounded-lg p-4 sm:p-6 mt-5 shadow-md max-w-4xl mx-auto">
 
+                    {/* Header */}
+                    <div className="flex justify-between items-start flex-wrap">
+                        <div className="flex items-start gap-3">
+                            <div className="text-4xl text-gray-400">
+                                <i className="uil uil-user-circle"></i>
                             </div>
-                            <img src={el.urlToImage} className='w-full px-5 bg-amber-500 aspect-video mt-3' />
-
-
-
-                            <div className='m-5'>
-                                {el.description}
-                            </div>
-                            <div className='w-full justify-around flex flex-row mt-5 font-semibold text-gray-400'>
-                                <div><i class="uil uil-thumbs-up"></i><span className='mx-2'>Like </span ></div>
-                                <div><i class="uil uil-comment-alt"></i><span className='mx-2'>Comment </span ></div>
-                                <div><i class="uil uil-share"></i><span className='mx-2'>Share </span ></div>
+                            <div>
+                                <h3 className="font-semibold text-lg">{el.title}</h3>
+                                <p className="text-sm text-gray-500 font-medium">{el.source.name}</p>
                             </div>
                         </div>
+                        <div className="text-2xl text-gray-500 mt-2 sm:mt-0">
+                            <i className="uil uil-ellipsis-v"></i>
+                        </div>
+                    </div>
 
+                    {/* Image */}
+                    {el.urlToImage && (
+                        <img
+                            src={el.urlToImage}
+                            alt="news"
+                            className="w-full mt-4 rounded-md aspect-video object-cover"
+                        />
+                    )}
 
-                    )
+                    {/* Description */}
+                    <div className="mt-4 text-gray-700 text-sm sm:text-base">
+                        {el.description}
+                    </div>
 
-                })}
-                <button onClick={() => { setindex(index + 3) }} className='bg-blue-500 p-3 m-3 rounded-sm text-white hover:bg-blue-400'>Load More</button>
+                    {/* Action Buttons */}
+                    <div className="flex justify-around text-gray-500 text-sm sm:text-base mt-4 font-medium">
+                        <button className="flex items-center gap-1 hover:text-blue-500">
+                            <i className="uil uil-thumbs-up"></i> Like
+                        </button>
+                        <button className="flex items-center gap-1 hover:text-blue-500">
+                            <i className="uil uil-comment-alt"></i> Comment
+                        </button>
+                        <button className="flex items-center gap-1 hover:text-blue-500">
+                            <i className="uil uil-share"></i> Share
+                        </button>
+                    </div>
+                </div>
+            ))}
 
+            {/* Load More Button */}
+            <div className="flex justify-center mt-6">
+                <button
+                    onClick={() => setindex(index + 3)}
+                    className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+                >
+                    Load More
+                </button>
             </div>
-
         </div>
+
     )
 }
 
