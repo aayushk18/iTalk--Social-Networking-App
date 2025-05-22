@@ -2,8 +2,8 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <div className='my-10'>
-            <div className='my-5 text-3xl font-semibold'>Education
+        <div className='md:my-10 sm:my-4'>
+            <div className='m-5 text-3xl font-semibold'>Education
                 <div className='font-medium text-2xl m-5'>
                     High School
                     <div className='text-xl font-light'>
