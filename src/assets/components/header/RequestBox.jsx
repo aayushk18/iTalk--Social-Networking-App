@@ -5,7 +5,7 @@ const RequestBox = ({ users }) => {
     console.log(users.friends.requests[0].name);
 
     return (
-        <div className=' bg-white shadow-xl shadow-gray-500 translate-y-7 w-100 rounded-lg  p-3 '>
+        <div className='  '>
             <div className=' '>Requests
                 <div className='text-sm my-2'>
 
