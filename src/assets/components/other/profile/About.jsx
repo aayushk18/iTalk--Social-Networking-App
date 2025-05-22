@@ -23,7 +23,7 @@ const About = () => {
 
 
                 </div>
-                <div className='mx-10'>
+                <div className='md:mx-10 sm:mx-4'>
                     <Outlet />
 
                 </div>
