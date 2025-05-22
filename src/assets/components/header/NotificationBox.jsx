@@ -2,7 +2,7 @@ import React from 'react'
 
 const NotificationBox = () => {
     return (
-        <div className=' bg-white shadow-xl shadow-gray-500 translate-y-7 w-100 rounded-lg  p-3 right-2 '>
+        <div className='  '>
             <div className=' p-2'>Notification
                 <div className='text-sm my-2 px-5'>
 
