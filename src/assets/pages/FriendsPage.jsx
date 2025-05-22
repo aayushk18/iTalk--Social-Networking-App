@@ -8,6 +8,8 @@ const FriendsPage = () => {
             <div className='text-6xl my-10 font-bold'>Friends</div>
             <div className='my-10'>
                 <div className='w-full bg-white p-5 rounded-lg'>
+
+                    
                     <div className='text-2xl'>Requests</div>
 
                 </div>
