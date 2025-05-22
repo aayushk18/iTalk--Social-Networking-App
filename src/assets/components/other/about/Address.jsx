@@ -2,9 +2,9 @@ import React from 'react'
 
 const Address = () => {
     return (
-        <div className='my-10'>
-            <div className='my-5 text-3xl font-semibold'>Places Lived
-                <div className='font-medium text-2xl m-5'>
+        <div className='md:my-10 sm:my-4'>
+            <div className='m-5  text-3xl  font-semibold'>Places Lived
+                <div className='font-medium text-2xl  m-5'>
                     Current City
                     <div className='text-xl font-light'>
                         Ghaziabad, Delhi
