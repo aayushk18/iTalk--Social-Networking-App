@@ -232,7 +232,7 @@ const Header = ({ users }) => {
 
                 {/* Mobile Menu (Hidden on md+) */}
                 {showMenu && (
-                    <div className="flex flex-col bg-white rounded-md shadow-gray-600 shadow-sm md:hidden gap-4 mt-3 px-4">
+                    <div className="flex flex-col bg-white rounded-md shadow-gray-600 shadow-sm md:hidden gap-5 mt-3 px-4">
                         <form className="flex m-2 gap-2 items-center">
                             <input
                                 required
@@ -248,15 +248,15 @@ const Header = ({ users }) => {
                             </button>
                         </form>
 
-                        <div className='flex flex-row  text-gray-500 flex-wrap justify-between'>
-
-                            <Link to='/profile' onClick={() => setShowMenu(!showMenu)} className="  text-3xl cursor-pointer">Aayush Kumar</Link>
+                        <div className='flex flex-row  text-gray-700 my-5 gap-3 flex-wrap'>
+                            <img className='rounded-full h-10 w-10  border-2 border-white shadow-gray-900 shadow-sm' src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/tony_stark.png" alt="" />
+                            <Link to='/profile' onClick={() => setShowMenu(!showMenu)} className="  text-4xl cursor-pointer">Aayush Kumar</Link>
 
                         </div>
 
 
 
-                        <div className="flex gap-5   text-3xl justify-between">
+                        <div className="flex   text-gray-700 text-3xl justify-between">
                             <i onClick={() => setShowReq(!showReq)} className={showReq ? "uil uil-users-alt text-green-500" : "uil uil-users-alt text-gray-500"}></i>
                             <i onClick={() => setShowMesg(!showMesg)} className={showMesg ? "uil uil-comment-alt text-green-500 " : "uil uil-comment-alt text-gray-500"}></i>
                             <i onClick={() => setShowNotification(!showNotification)} className={showNotification ? "uil uil-bell text-green-500" : "uil uil-bell text-gray-500"}></i>
@@ -270,17 +270,17 @@ const Header = ({ users }) => {
 
                         </div>
 
-                        {showFullMenu ? <div className='text-2xl flex flex-col  text-gray-500'>
-                            <NavLink onClick={() => setShowMenu(!showMenu)} to={'/friends'} className=''><div><i class="uil uil-users-alt">  </i>  Friends</div></NavLink>
-                            <NavLink onClick={() => setShowMenu(!showMenu)} to={'/saved'} className=''><div><i class="uil uil-bookmark-full">  </i>  Saved</div></NavLink>
-                            <NavLink onClick={() => setShowMenu(!showMenu)} to={'/groups'} className=''><div><i class="uil uil-layer-group"></i>  Groups</div></NavLink>
-                            <NavLink onClick={() => setShowMenu(!showMenu)} to={'/feeds'} className=''><div><i class="uil uil-postcard"></i>  Feeds</div></NavLink>
-                            <NavLink onClick={() => setShowMenu(!showMenu)} to={'/feeds'} className=''><div><i class="uil uil-schedule"></i>  Events</div></NavLink>
+                        {showFullMenu ? <div className='text-2xl flex flex-col  text-gray-700'>
+                            <NavLink className='text-2xl' onClick={() => setShowMenu(!showMenu)} to={'/friends'} ><div> Friends</div></NavLink>
+                            <NavLink className='text-2xl' onClick={() => setShowMenu(!showMenu)} to={'/saved'} ><div> Saved</div></NavLink>
+                            <NavLink className='text-2xl' onClick={() => setShowMenu(!showMenu)} to={'/groups'} ><div>  Groups</div></NavLink>
+                            <NavLink className='text-2xl' onClick={() => setShowMenu(!showMenu)} to={'/feeds'} ><div> Feeds</div></NavLink>
+                            <NavLink className='text-2xl' onClick={() => setShowMenu(!showMenu)} to={'/feeds'} ><div> Events</div></NavLink>
                         </div> : ''}
 
 
 
-                        {showFullMenu ? <div className="text-2xl flex flex-col my-4 text-gray-500">
+                        {showFullMenu ? <div className="text-2xl flex flex-col my-4 text-gray-700">
                             <NavLink onClick={() => setShowMenu(!showMenu)} className="cursor-pointer">Report a Bug</NavLink>
                             <NavLink onClick={() => setShowMenu(!showMenu)} to='/settings' className="cursor-pointer">Settings</NavLink>
                             <NavLink onClick={() => setShowMenu(!showMenu)} className="cursor-pointer">Log out</NavLink>
