@@ -7,7 +7,7 @@ import BasicInfo from './BasicInfo'
 const Overview = () => {
     return (
         <div >
-            <div className='font-semibold text-4xl mb-10'>Overview</div>
+            <div className='font-semibold text-4xl mb-10 m-5'>Overview</div>
             <div>
 
                 <Work />
