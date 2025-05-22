@@ -93,8 +93,8 @@ const MainPage = () => {
                         />
                     </div>
                     <div className='w-full justify-around flex flex-wrap mt-4 font-semibold text-gray-400'>
-                        <button type='button'><i className='uil uil-upload'></i><span className='mx-2'>Update Status</span></button>
-                        <button type='button'><i className='uil uil-image-plus'></i><span className='mx-2'>Upload Photos/Videos</span></button>
+                        <button type='button'><i className='uil uil-upload'></i><span className='hidden md:inline mx-2'>Update Status</span></button>
+                        <button type='button'><i className='uil uil-image-plus'></i><span className='hidden md:inline mx-2'>Upload Photos/Videos</span></button>
                     </div>
                 </form>
 
