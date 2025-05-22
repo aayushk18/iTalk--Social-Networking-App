@@ -21,6 +21,7 @@ import Education from './assets/components/other/about/Education.jsx'
 import Address from './assets/components/other/about/Address.jsx'
 import BasicInfo from './assets/components/other/about/BasicInfo.jsx'
 import NewsFeed from './assets/components/other/NewsFeed.jsx'
+import SettingsPage from './assets/pages/SettingsPage.jsx'
 
 
 const router = createBrowserRouter(
@@ -43,6 +44,7 @@ const router = createBrowserRouter(
         <Route path='photos' element={<Photos />} />
         <Route path='videos' element={<Videos />} />
       </Route>
+      <Route path='settings' element={<SettingsPage />} />
 
       <Route path='messages' element={<MessagePage />} />
       <Route path='friends' element={<FriendsPage />} />
